@@ -18,11 +18,11 @@ const Register = () =>{
                 <Text style={styles.subtitle}>Rua</Text>
                 <MyInput placeholder="Insira sua rua"/>    
             </View>
-            <View style={styles.container}>
+            <View style={styles.adress}>
                 <Text style={styles.subtitle}>Numero</Text>
-                <MyInput/>
+                <MyInput placeholder='Insira seu numero'/>
                 <Text style={styles.subtitle}>Bairro</Text>
-                <MyInput/>
+                <MyInput placeholder='Insira seu bairro'/>
             </View>
             <View style={styles.container}>
                 <Text style={styles.subtitle}>Email</Text>
@@ -60,13 +60,14 @@ const styles = StyleSheet.create({
     },
     adress:{
         flexDirection: 'row',
-        marginHorizontal: Responsive.font(1),
-        justifyContent: 'space-evenly',
+        marginHorizontal: Responsive.font(40),
+        marginRight: Responsive.font(100),
+        justifyContent: 'space-between',
+        width: Responsive.font(90)
 
     },
     input:{
         marginHorizontal: Responsive.font(40),
-        marginVertical: Responsive.font(40),
         justifyContent: 'center',
     }
    
