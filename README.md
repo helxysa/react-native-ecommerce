@@ -14,7 +14,7 @@
   </br>
   - Através de emulador do android.
 
-<h3> Dentro da pasta ecommerce, execute o seguinte comando: </h3>
+<h3> Dentro da ecommerce, execute o seguinte comando: </h3>
 
 ```bash
 npx install expo
