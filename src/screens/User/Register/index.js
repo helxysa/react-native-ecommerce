@@ -24,6 +24,10 @@ const Register = () =>{
                 <Text style={styles.subtitle}>Bairro</Text>
                 <MyInput placeholder='Insira seu bairro'/>
             </View>
+            <View>
+
+                
+            </View>
             <View style={styles.container}>
                 <Text style={styles.subtitle}>Email</Text>
                 <MyInput placeholder='Insira seu email'/>

@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
         fontWright: Responsive.font(14),
         color: "#ffffff",
         fontSize: Responsive.font(16),
-        backgroundColor: 'blue',
+        backgroundColor: 'blue',    
         textAlign: 'center',
         padding: Responsive.font(8),
         borderRadius: Responsive.font(8),

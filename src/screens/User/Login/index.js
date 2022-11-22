@@ -4,6 +4,7 @@ import Responsive from 'react-native-lightweight-responsive';
 import theme from "../../../global/theme";
 import { MyButton } from "../../../components/Forms/MyButton";
 import { MyInput } from "../../../components/Forms/MyInput";
+import { SocialButton } from "../../../components/Forms/SocialButton/SocialButton";
 
 
 const Login  = ()=>{
@@ -16,6 +17,14 @@ const Login  = ()=>{
            <Text style={styles.inputTitle}>Senha</Text>
            <MyInput placeholder="password"/>
             <MyButton title='Entrar'/>
+            <View style={{alignItems: "center"}}>
+                <Text style={styles.subtitle}>Ou acesse com suas redes sociais</Text>        
+            </View>
+            <View style={styles.social}>
+                    <SocialButton title="Twitter" name="twitter"/>
+
+                    <SocialButton title="Facebook" name="facebook"btnCpolor=""/>
+            </View>
            </View>
         </View>
     )
@@ -52,6 +61,12 @@ const styles = StyleSheet.create({
         marginBottom:Responsive.font(16)
 
 
+    }, subtitle:{
+        fontSize:Responsive.font(14),
+        color: theme.colors.subtitle,
+    }, social:{
+        flexDirection:"row",
+        justifyContent: "space-between"
     }
 
 })
