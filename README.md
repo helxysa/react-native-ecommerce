@@ -17,6 +17,10 @@
 <h3> Dentro da ecommerce, execute o seguinte comando: </h3>
 
 ```bash
+
+npm install ou
+yarn install
+
 npx install expo
 
 ```
