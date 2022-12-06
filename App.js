@@ -7,7 +7,7 @@ import { Register } from "./src/screens/User/Register"
 export default function App() {
   return(
     <ThemeProvider theme={theme}>
-      <Register/>
+      <Login/>
     </ThemeProvider>  
     );
 }

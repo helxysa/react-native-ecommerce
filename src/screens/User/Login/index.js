@@ -23,7 +23,7 @@ const Login  = ()=>{
             <View style={styles.social}>
                     <SocialButton title="Twitter" name="twitter"/>
 
-                    <SocialButton title="Facebook" name="facebook"btnCpolor=""/>
+                    <SocialButton title="Facebook" name="facebook" btnColor=""/>
             </View>
            </View>
         </View>
